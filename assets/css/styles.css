@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 2rem;
+  padding: 2rem;
+  border: 2px solid black;
+  width: 80vh;
+  background-color: #cacaca;
+  font-family: "Roboto", sans-serif;
+}
+.inputSection {
+  margin-top: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+}
+
+#addTask {
+  width: 80%;
+}
+
+#btnAddTask {
+  color: white;
+  background-color: green;
+  border: 1px solid black;
+  padding: 0.2rem;
+}
+
+.taskBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+.btnDelete {
+  background-color: red;
+  color: white;
+  border: transparent;
+  padding: 0.1rem;
+  font-size: smaller;
+}
+
+.tasks {
+  display: flex;
+  padding: 1rem;
+}
+
+.tasksSection {
+  margin-left: 8rem;
+  width: 100%;
+}
+
+.counterSection {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.taskId {
+  font-size: x-small;
+  color: #7e7e7e;
+}
